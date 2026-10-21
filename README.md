@@ -12,6 +12,25 @@
 [![Telegram](https://img.shields.io/badge/Community-PANEL__ZEUS-2CA5E0.svg?style=for-the-badge&logo=telegram)](https://t.me/PANEL_ZEUS)
 </div>
 
+
+## 🌐 ZX PANEL Website
+
+- **Main website:** https://zx-panel-site.aminopy-xray.workers.dev/
+- **Health check:** https://zx-panel-site.aminopy-xray.workers.dev/health
+- **Existing panel:** https://mxz3r0e0u7zs.aminopy-xray.workers.dev/
+- Landing page source: `public/index.html`
+- Worker entry point: `src/index.js` (generated from the landing page by the build script)
+
+### Local development and deployment
+
+1. Install Node.js and clone this repository.
+2. Run `npm install`.
+3. Start locally with `npm run dev`.
+4. Deploy with Wrangler using `npx wrangler login` followed by `npm run deploy`.
+
+For GitHub Actions auto-deployment, add repository secrets named `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. The workflow deploys only the main-site Worker named `zx-panel-site`; it does not modify the existing panel Worker.
+
+
 <table width="100%">
 <tr>
 <td width="50%" valign="middle" align="center">
