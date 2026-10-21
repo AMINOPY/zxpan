@@ -5,28 +5,28 @@
 
 <div align="center">
  
-# ⚡ ZEUS PANEL
-[![Version](https://img.shields.io/badge/Version-v2.2.2-blue.svg?style=for-the-badge&logo=cloudflare)](https://github.com/panel-zeus/Z-E-U-S)
+# ⚡ ZX PANEL
+[![Version](https://img.shields.io/badge/Version-v2.2.2-blue.svg?style=for-the-badge&logo=cloudflare)](https://github.com/AMINOPY/zxpan)
 [![Platform](https://img.shields.io/badge/Platform-Cloudflare%20Workers-f38020.svg?style=for-the-badge&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com/)
-[![License](https://img.shields.io/badge/License-Proprietary%20(Non--Commercial)-red.svg?style=for-the-badge)](https://github.com/panel-zeus/Z-E-U-S/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-Proprietary%20(Non--Commercial)-red.svg?style=for-the-badge)](https://github.com/AMINOPY/zxpan/blob/main/LICENSE)
 [![Telegram](https://img.shields.io/badge/Community-PANEL__ZEUS-2CA5E0.svg?style=for-the-badge&logo=telegram)](https://t.me/PANEL_ZEUS)
 </div>
 
 <table width="100%">
 <tr>
 <td width="50%" valign="middle" align="center">
-<img src="https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/photos/dark.png" width="100%" alt="Zeus Panel Dark Mode" style="border-radius: 12px;">
+<img src="https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/photos/dark.png" width="100%" alt="ZX PANEL Dark Mode" style="border-radius: 12px;">
 </td>
 <td width="50%" valign="middle" align="center">
-<img src="https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/photos/1.png" width="100%" alt="Zeus Panel Screenshot 1" style="border-radius: 12px;">
+<img src="https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/photos/1.png" width="100%" alt="ZX PANEL Screenshot 1" style="border-radius: 12px;">
 </td>
 </tr>
 <tr>
 <td width="50%" valign="middle" align="center">
-<img src="https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/photos/2.png" width="100%" alt="Zeus Panel Screenshot 2" style="border-radius: 12px;">
+<img src="https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/photos/2.png" width="100%" alt="ZX PANEL Screenshot 2" style="border-radius: 12px;">
 </td>
 <td width="50%" valign="middle" align="center">
-<img src="https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/photos/3.png" width="100%" alt="Zeus Panel Screenshot 3" style="border-radius: 12px;">
+<img src="https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/photos/3.png" width="100%" alt="ZX PANEL Screenshot 3" style="border-radius: 12px;">
 </td>
 </tr>
 </table>
@@ -34,10 +34,10 @@
 <table width="100%">
 <tr>
 <td width="50%" valign="middle" align="center">
-<img src="https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/photos/bot.png" width="100%" alt="Zeus Panel Status" style="border-radius: 12px;">
+<img src="https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/photos/bot.png" width="100%" alt="ZX PANEL Status" style="border-radius: 12px;">
 </td>
 <td width="50%" valign="middle" align="center">
-<img src="https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/photos/status.png" width="100%" alt="Zeus Panel Dark Mode" style="border-radius: 12px;">
+<img src="https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/photos/status.png" width="100%" alt="ZX PANEL Dark Mode" style="border-radius: 12px;">
 </td>
 </tr>
 </table>
@@ -116,7 +116,7 @@ First, log into your Cloudflare dashboard. Ensure you are using a verified email
 <br>
 
 <a href="https://t.me/ZEUS_PANEL_BOT" target="_blank">
-<img src="https://img.shields.io/badge/Zeus_Telegram_Bot-Start_Bot-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="Zeus Telegram Bot" height="40">
+<img src="https://img.shields.io/badge/Zeus_Telegram_Bot-Start_Bot-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="ZX PANEL Telegram Bot" height="40">
 </a>
 
 </div>
@@ -125,7 +125,7 @@ First, log into your Cloudflare dashboard. Ensure you are using a verified email
 
 ## 🤖  Deploy via Telegram Bot 
 
-1. 🌐 Access the **[ZEUS Telegram Bot](https://t.me/ZEUS_PANEL_BOT)** and click `Start`.
+1. 🌐 Access the **[ZX PANEL Telegram Bot](https://t.me/ZEUS_PANEL_BOT)** and click `Start`.
 2. 👤 From the main menu, click on **"➕ Register Cloudflare Account"**.
 3. 🔗 Click the inline button **"🔑 Get Cloudflare Token"** to be redirected to your Cloudflare account.
 4. 🟦 Scroll to the bottom of the Cloudflare page, click the blue `Continue to summary` button, and then click `Create Token`.
@@ -140,14 +140,14 @@ First, log into your Cloudflare dashboard. Ensure you are using a verified email
 ---
 
 
-# 🛡️ Build Your Own SOCKS5 Proxy (Zeus Relay)
+# 🛡️ Build Your Own SOCKS5 Proxy (ZX PANEL Relay)
 
 A dedicated bash script is provided to instantly deploy a private, secure SOCKS5 proxy on any Linux VPS (Ubuntu, Debian, CentOS, Rocky Linux). This is highly recommended for users who wish to create VIP residential proxies to route traffic through clean, dedicated IPs.
 
 To install, update, or remove the Dante SOCKS5 proxy, execute the following command on your Linux server with root privileges:
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/main/zeus-relay.sh | sed 's/\r$//')
+bash <(curl -Ls https://raw.githubusercontent.com/AMINOPY/zxpan/main/zeus-relay.sh | sed 's/\r$//')
 ```
 
 The script features an interactive menu, automatic port configuration, random secure credential generation (username/password), and native IPv4/IPv6 integration.
@@ -156,14 +156,14 @@ The script features an interactive menu, automatic port configuration, random se
 
 # 🔎 Clean IP Scanner
 
-ZEUS Panel features a highly optimized, multi-threaded local IP scanner. You can quickly find the fastest and most stable clean Cloudflare IPs directly from your device using the methods below:
+ZX PANEL features a highly optimized, multi-threaded local IP scanner. You can quickly find the fastest and most stable clean Cloudflare IPs directly from your device using the methods below:
 
 ### 📱 Mobile Users (Pydroid 3 - Android)
 1. Install **[Pydroid 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3)** from the Google Play Store.
 2. Open the app, navigate to the **Terminal** from the side menu, and execute the following command:
 
 ```bash
-python -c "import urllib.request; req = urllib.request.Request('https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/zeus-scanner.txt', headers={'User-Agent': 'Mozilla/5.0'}); exec(urllib.request.urlopen(req).read().decode('utf-8').split('---PYTH' + 'ON---')[1].split('---POWERSHELL---')[0].strip())"
+python -c "import urllib.request; req = urllib.request.Request('https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/zeus-scanner.txt', headers={'User-Agent': 'Mozilla/5.0'}); exec(urllib.request.urlopen(req).read().decode('utf-8').split('---PYTH' + 'ON---')[1].split('---POWERSHELL---')[0].strip())"
 
 ```
 
@@ -174,7 +174,7 @@ python -c "import urllib.request; req = urllib.request.Request('https://raw.gith
 Open **Command Prompt (CMD)** in Windows, paste the following command, and hit Enter. The high-speed scanner interface will automatically compile and launch:
 
 ```cmd
-powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13; $wc = New-Object System.Net.WebClient; $wc.Encoding = [System.Text.Encoding]::UTF8; $text = ($wc.DownloadString('https://raw.githubusercontent.com/panel-zeus/Z-E-U-S/refs/heads/main/zeus-scanner.txt') -split '---POWERSHELL---')[1].Trim(); [IO.File]::WriteAllText('zeus-scanner.ps1', $text, [System.Text.Encoding]::UTF8); .\zeus-scanner.ps1"
+powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13; $wc = New-Object System.Net.WebClient; $wc.Encoding = [System.Text.Encoding]::UTF8; $text = ($wc.DownloadString('https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/zeus-scanner.txt') -split '---POWERSHELL---')[1].Trim(); [IO.File]::WriteAllText('zeus-scanner.ps1', $text, [System.Text.Encoding]::UTF8); .\zeus-scanner.ps1"
 
 ```
 
@@ -195,9 +195,9 @@ powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::Security
 
 <a href="https://www.star-history.com/?repos=panel-zeus%2FZ-E-U-S&type=date&legend=bottom-right">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=panel-zeus/Z-E-U-S&type=date&theme=dark&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=panel-zeus/Z-E-U-S&type=date&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=panel-zeus/Z-E-U-S&type=date&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AMINOPY/zxpan&type=date&theme=dark&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AMINOPY/zxpan&type=date&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AMINOPY/zxpan&type=date&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
  </picture>
 </a>
 
@@ -205,7 +205,7 @@ powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::Security
 
 ## <a id="license-copyright"></a>⚖️ License & Copyright
 
-**Copyright (c) 2026 ZEUS PANEL Contributors. All Rights Reserved.**
+**Copyright (c) 2026 ZX PANEL Contributors. All Rights Reserved.**
 
 This software is provided for **personal, non-commercial use only**. By downloading or using this software, you agree to the following strict conditions:
 
