@@ -1,9 +1,9 @@
 {
   "$schema": "https://developers.cloudflare.com/workers/wrangler/config-schema.json",
   "name": "zx-panel-site",
+  "main": "src/index.js",
   "compatibility_date": "2026-10-21",
-  "assets": {
-    "directory": "./public",
-    "not_found_handling": "404-page"
-  }
+  "workers_dev": true,
+  "observability": { "enabled": true },
+  "routes": []
 }
