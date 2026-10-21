@@ -16,7 +16,7 @@
 
 - **وب‌سایت:** https://zx-panel-site.aminopy-xray.workers.dev/
 - **بررسی سلامت سرویس:** https://zx-panel-site.aminopy-xray.workers.dev/health
-- **ورود به پنل فعلی:** https://zx-panel.aminopy-xray.workers.dev/
+- **ورود به پنل:** https://zxpan.aminopy-xray.workers.dev/panel
 - فایل رابط سایت: `public/index.html`
 - کد Worker: `src/index.js` (با اجرای اسکریپت ساخت از روی فایل رابط تولید می‌شود)
 
@@ -27,7 +27,7 @@
 3. برای اجرای محلی: `npm run dev`
 4. برای انتشار با Wrangler: `npx wrangler login` و سپس `npm run deploy`
 
-برای انتشار خودکار از GitHub Actions، در تنظیمات مخزن دو Secret با نام‌های `CLOUDFLARE_API_TOKEN` و `CLOUDFLARE_ACCOUNT_ID` تعریف کن. Workflow فقط Worker سایت اصلی با نام `zx-panel-site` را منتشر می‌کند و به Worker پنل فعلی دست نمی‌زند.
+برای انتشار خودکار از GitHub Actions، در تنظیمات مخزن دو Secret با نام‌های `CLOUDFLARE_API_TOKEN` و `CLOUDFLARE_ACCOUNT_ID` تعریف کن. Workflow سایت، Worker با نام `zx-panel-site` را منتشر می‌کند؛ Workflow پنل نیز Worker اصلی با نام `zxpan` را با تنظیمات `wrangler.panel.jsonc` منتشر می‌کند.
 
 
 <table width="100%">
