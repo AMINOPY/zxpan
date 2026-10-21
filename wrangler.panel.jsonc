@@ -1,12 +1,12 @@
 {
   "$schema": "https://developers.cloudflare.com/workers/wrangler/config-schema.json",
-  "name": "zx-panel",
+  "name": "zxpan",
   "main": "Source.js",
   "compatibility_date": "2026-10-21",
   "workers_dev": true,
   "vars": {
     "CF_ACCOUNT_ID": "0825c78ea8ba856472d410932a2078c9",
-    "WORKER_NAME": "zx-panel"
+    "WORKER_NAME": "zxpan"
   },
   "d1_databases": [
     {
