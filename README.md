@@ -16,7 +16,7 @@
 
 - **Main website:** https://zx-panel-site.aminopy-xray.workers.dev/
 - **Health check:** https://zx-panel-site.aminopy-xray.workers.dev/health
-- **Existing panel:** https://mxz3r0e0u7zs.aminopy-xray.workers.dev/
+- **Existing panel:** https://zx-panel.aminopy-xray.workers.dev/
 - Landing page source: `public/index.html`
 - Worker entry point: `src/index.js` (generated from the landing page by the build script)
 
@@ -133,22 +133,20 @@ First, log into your Cloudflare dashboard. Ensure you are using a verified email
 
 <br>
 
-<a href="https://t.me/ZEUS_PANEL_BOT" target="_blank">
-<img src="https://img.shields.io/badge/ZX_PANEL_Telegram_Bot-Start_Bot-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="ZX PANEL Telegram Bot" height="40">
-</a>
-
 </div>
 
 <br>
 
-## 🤖  Deploy via Telegram Bot 
+## 🚀 Deploy the panel to Cloudflare Workers
 
-1. 🌐 Access the **[ZX PANEL Telegram Bot](https://t.me/ZEUS_PANEL_BOT)** and click `Start`.
-2. 👤 From the main menu, click on **"➕ Register Cloudflare Account"**.
-3. 🔗 Click the inline button **"🔑 Get Cloudflare Token"** to be redirected to your Cloudflare account.
-4. 🟦 Scroll to the bottom of the Cloudflare page, click the blue `Continue to summary` button, and then click `Create Token`.
-5. 🔑 Copy the generated token and **send it directly in the bot chat**.
-6. ⚡️ Once the token is verified, return to the main menu, click **"🚀 Build New Panel"**, and select your account. Your D1 database and panel will be automatically deployed.
+1. In the GitHub repository settings, add the `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` repository secrets. The deployment token should have only the permissions required to manage Workers.
+2. `wrangler.panel.jsonc` binds the panel to the existing D1 database and deploys the panel source from `Source.js`.
+3. Changes to `Source.js`, or manually running the **Deploy ZX PANEL** workflow, trigger deployment once the repository secrets are configured.
+4. After the first deployment, open the panel immediately and set the administrator password. For features that manage Cloudflare resources, add a separate `CF_API_TOKEN` secret in the Worker settings; never commit it to GitHub or send it to a bot.
+
+**Panel URL after deployment:** `https://zx-panel.aminopy-xray.workers.dev/`
+
+
 
 ---
 
