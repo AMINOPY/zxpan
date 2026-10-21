@@ -16,7 +16,7 @@
 
 - **وب‌سایت:** https://zx-panel-site.aminopy-xray.workers.dev/
 - **بررسی سلامت سرویس:** https://zx-panel-site.aminopy-xray.workers.dev/health
-- **ورود به پنل فعلی:** https://mxz3r0e0u7zs.aminopy-xray.workers.dev/
+- **ورود به پنل فعلی:** https://zx-panel.aminopy-xray.workers.dev/
 - فایل رابط سایت: `public/index.html`
 - کد Worker: `src/index.js` (با اجرای اسکریپت ساخت از روی فایل رابط تولید می‌شود)
 
@@ -133,22 +133,20 @@
 
 <br>
 
-<a href="https://t.me/ZEUS_PANEL_BOT" target="_blank">
-<img src="https://img.shields.io/badge/ZX_PANEL_Telegram_Bot-Start_Bot-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="ZX PANEL Telegram Bot" height="40">
-</a>
-
 </div>
 
 <br>
 
-## 🤖 دیپلوی از طریق ربات تلگرام
+## 🚀 انتشار پنل روی Cloudflare Workers
 
-1. 🌐 وارد **[ربات تلگرام ZX PANEL](https://t.me/ZEUS_PANEL_BOT)** شوید و روی `Start` کلیک کنید.
-2. 👤 از منوی اصلی روی **"➕ Register Cloudflare Account"** کلیک کنید.
-3. 🔗 روی دکمه اینلاین **"🔑 Get Cloudflare Token"** کلیک کنید تا به اکانت کلودفلر خود هدایت شوید.
-4. 🟦 به پایین صفحه کلودفلر اسکرول کنید، روی دکمه آبی `Continue to summary` کلیک کنید و سپس `Create Token` را بزنید.
-5. 🔑 توکن تولیدشده را کپی کرده و **مستقیماً در چت ربات ارسال کنید**.
-6. ⚡️ پس از تأیید توکن، به منوی اصلی برگردید، روی **"🚀 Build New Panel"** کلیک کنید و اکانت خود را انتخاب کنید. دیتابیس D1 و پنل شما به‌طور خودکار مستقر خواهد شد.
+1. در تنظیمات مخزن GitHub، دو Secret با نام‌های `CLOUDFLARE_API_TOKEN` و `CLOUDFLARE_ACCOUNT_ID` تعریف کن. توکن انتشار باید فقط مجوز لازم برای مدیریت Worker را داشته باشد.
+2. فایل `wrangler.panel.jsonc` از دیتابیس D1 موجود استفاده می‌کند و کد اصلی پنل را از `Source.js` منتشر می‌کند.
+3. با هر تغییر در `Source.js` یا اجرای دستی Workflow با نام **Deploy ZX PANEL**، انتشار انجام می‌شود؛ البته فقط پس از تعریف Secretها.
+4. پس از اولین انتشار، فوراً وارد پنل شو و رمز مدیر را تنظیم کن. برای قابلیت‌هایی که به مدیریت حساب Cloudflare نیاز دارند، Secret جداگانهٔ `CF_API_TOKEN` را در تنظیمات Worker قرار بده؛ آن را داخل GitHub یا کد قرار نده و برای هیچ رباتی ارسال نکن.
+
+**نشانی پنل پس از انتشار:** `https://zx-panel.aminopy-xray.workers.dev/`
+
+
 
 ---
 
