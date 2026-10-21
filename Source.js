@@ -602,7 +602,7 @@ const ZX_PANEL_ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 
 const PWA_MANIFEST = JSON.stringify({
 	name: "ZF PANEL",
 	short_name: "ZF PANEL",
-	description: "پنل مدیریت پیشرفته کانفیگ و کاربران زئوس",
+	description: "پنل مدیریت پیشرفته کانفیگ و کاربران ZX PANEL",
 	start_url: "/panel",
 	scope: "/",
 	display: "standalone",
@@ -5387,7 +5387,7 @@ const HTML_TEMPLATES = {
 		<div class="flex justify-between items-center mb-4 relative z-10">
 			<h3 class="text-sm font-black text-gray-900 dark:text-white flex items-center gap-2">
 				<span class="text-lg">📲</span>
-				<span id="pwa-modal-title">راهنمای نصب اپلیکیشن زئوس</span>
+				<span id="pwa-modal-title">راهنمای نصب اپلیکیشن ZX PANEL</span>
 			</h3>
 			<button onclick="togglePwaModal(false)" class="p-1 rounded-md text-gray-400 hover:text-red-500 cursor-pointer transition">
 				<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
@@ -5399,7 +5399,7 @@ const HTML_TEMPLATES = {
 				<svg class="w-6 h-6 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
 			</div>
 			<div>
-				<h4 class="text-xs font-black text-gray-900 dark:text-white">پنل زئوس</h4>
+				<h4 class="text-xs font-black text-gray-900 dark:text-white">ZF PANEL</h4>
 				<span class="text-[10px] text-gray-500 dark:text-zinc-400 block">اپلیکیشن پیشرفته و مستقل وب (PWA)</span>
 			</div>
 		</div>
@@ -5423,16 +5423,16 @@ const HTML_TEMPLATES = {
 		
 		<div class="text-xs text-gray-600 dark:text-gray-300 mb-4 leading-relaxed font-medium text-justify space-y-2">
 			<p>
-				همراهان گرامی؛ با وجود مسدود شدن مکرر مخازن گیت‌هاب زئوس بر اثر گزارش‌های کذب و مغرضانه <strong>فروشندگان کانفیگ</strong>، ما مخزن جدیدی را برای دسترسی شما ایجاد کرده‌ایم؛ هرچند متاسفانه احتمال مسدود شدن مجدد آن همچنان وجود دارد.
+				همراهان گرامی؛ با وجود مسدود شدن مکرر مخازن گیت‌هاب ZX PANEL بر اثر گزارش‌های کذب و مغرضانه <strong>فروشندگان کانفیگ</strong>، ما مخزن جدیدی را برای دسترسی شما ایجاد کرده‌ایم؛ هرچند متاسفانه احتمال مسدود شدن مجدد آن همچنان وجود دارد.
 			</p>
 			<p>
 				این افراد سودجو با انتشار شایعات بی‌اساس مبنی بر ناامن بودن پنل، در تلاشند تا این پروژه کاملاً رایگان را تخریب کنند و منافع مالی خود را نجات دهند. اما ما تسلیم این کارشکنی‌ها نخواهیم شد.
 			</p>
 			<p>
-				پروژه زئوس همواره بر پایه شفافیت مطلق بنا شده است. سورس‌کد کامل در اختیار شماست تا بتوانید مستقلاً و حتی به کمک ابزارهای هوش مصنوعی آن را بررسی کرده و از سلامت و امنیت قطعی پروژه اطمینان حاصل کنید.
+				پروژه ZX PANEL همواره بر پایه شفافیت مطلق بنا شده است. سورس‌کد کامل در اختیار شماست تا بتوانید مستقلاً و حتی به کمک ابزارهای هوش مصنوعی آن را بررسی کرده و از سلامت و امنیت قطعی پروژه اطمینان حاصل کنید.
 			</p>
 			<p class="text-amber-600 dark:text-amber-400 font-bold text-center mt-2 border-t border-gray-100 dark:border-amoled-border/50 pt-2.5">
-				ادامه این مسیر پرفراز و نشیب و مقابله با این تخریب‌های سازمان‌یافته، بدون همراهی شما دشوار است. حمایت‌های شما، تنها پشتوانه ما برای زنده نگه داشتن زئوس است.
+				ادامه این مسیر پرفراز و نشیب و مقابله با این تخریب‌های سازمان‌یافته، بدون همراهی شما دشوار است. حمایت‌های شما، تنها پشتوانه ما برای زنده نگه داشتن ZX PANEL است.
 			</p>
 		</div>
 		
@@ -8507,7 +8507,7 @@ async function executeRocketCreate() {
 		});
 		window.addEventListener('appinstalled', () => {
 			window.deferredPwaPrompt = null;
-			showToast('✅ اپلیکیشن زئوس با موفقیت روی دستگاه شما نصب شد!');
+			showToast('✅ اپلیکیشن ZX PANEL با موفقیت روی دستگاه شما نصب شد!');
 		});
 		function isIosDevice() {
 			return /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
