@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developers.cloudflare.com/workers/wrangler/config-schema.json",
+  "name": "zx-panel",
+  "main": "Source.js",
+  "compatibility_date": "2026-10-21",
+  "workers_dev": true,
+  "vars": {
+    "CF_ACCOUNT_ID": "0825c78ea8ba856472d410932a2078c9",
+    "WORKER_NAME": "zx-panel"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "mxz3r0e0u7zs-db",
+      "database_id": "e42ba0d8-3f70-4a20-9870-3bf9ee20e123"
+    }
+  ]
+}
