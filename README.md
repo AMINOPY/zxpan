@@ -16,7 +16,7 @@
 
 - **Main website:** https://zx-panel-site.aminopy-xray.workers.dev/
 - **Health check:** https://zx-panel-site.aminopy-xray.workers.dev/health
-- **Existing panel:** https://zx-panel.aminopy-xray.workers.dev/
+- **Panel login:** https://zxpan.aminopy-xray.workers.dev/panel
 - Landing page source: `public/index.html`
 - Worker entry point: `src/index.js` (generated from the landing page by the build script)
 
@@ -27,7 +27,7 @@
 3. Start locally with `npm run dev`.
 4. Deploy with Wrangler using `npx wrangler login` followed by `npm run deploy`.
 
-For GitHub Actions auto-deployment, add repository secrets named `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. The workflow deploys only the main-site Worker named `zx-panel-site`; it does not modify the existing panel Worker.
+For GitHub Actions auto-deployment, add repository secrets named `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. The site workflow deploys `zx-panel-site`; the panel workflow deploys the main panel Worker named `zxpan` using `wrangler.panel.jsonc`.
 
 
 <table width="100%">
