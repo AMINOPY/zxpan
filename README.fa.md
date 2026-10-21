@@ -9,7 +9,6 @@
 [![Version](https://img.shields.io/badge/Version-v2.2.2-blue.svg?style=for-the-badge&logo=cloudflare)](https://github.com/AMINOPY/zxpan)
 [![Platform](https://img.shields.io/badge/Platform-Cloudflare%20Workers-f38020.svg?style=for-the-badge&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com/)
 [![License](https://img.shields.io/badge/License-Proprietary%20(Non--Commercial)-red.svg?style=for-the-badge)](https://github.com/AMINOPY/zxpan/blob/main/LICENSE)
-[![Telegram](https://img.shields.io/badge/Community-PANEL__ZEUS-2CA5E0.svg?style=for-the-badge&logo=telegram)](https://t.me/PANEL_ZEUS)
 </div>
 
 
@@ -240,4 +239,4 @@ powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::Security
 این پنل در ابتدا توسط آراد و مورگان مفهوم‌سازی و نوشته شده است. نسخه فعلی نمایانگر یک تکرار گسترش‌یافته، بسیار بهینه‌شده و به‌شدت بازسازی‌شده از آن منطق اصلی است.
 
 * **نویسندگان اصلی:** مفهوم پایه و چارچوب اولیه متعلق به [AG-Morgan](https://github.com/AG-Morgan) و [aradava](https://github.com/aradava) است.
-* **نگهدارنده فعلی:** ارتقاهای سیستم، قابلیت‌های پیشرفته شبکه، بازطراحی رابط کاربری و زیرساخت دیپلوی خودکار توسط [PANEL_ZEUS](https://t.me/PANEL_ZEUS) توسعه و نگهداری شده است.
+* **نگهدارنده فعلی:** ارتقاهای سیستم، قابلیت‌های پیشرفته شبکه، بازطراحی رابط کاربری و زیرساخت دیپلوی خودکار توسط [ZX PANEL](https://github.com/AMINOPY/zxpan) توسعه و نگهداری شده است.
