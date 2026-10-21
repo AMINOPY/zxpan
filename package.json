@@ -5,7 +5,8 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "deploy": "npm run build && wrangler deploy",
-    "dev": "npm run build && wrangler dev"
+    "dev": "npm run build && wrangler dev",
+    "deploy:panel": "wrangler deploy --config wrangler.panel.jsonc"
   },
   "devDependencies": {
     "wrangler": "^4.45.0"
