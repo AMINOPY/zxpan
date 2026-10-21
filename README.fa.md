@@ -5,7 +5,7 @@
 
 <div align="center">
  
-# ⚡ پنل زئوس
+# ⚡ پنل ZX PANEL
 [![Version](https://img.shields.io/badge/Version-v2.2.2-blue.svg?style=for-the-badge&logo=cloudflare)](https://github.com/AMINOPY/zxpan)
 [![Platform](https://img.shields.io/badge/Platform-Cloudflare%20Workers-f38020.svg?style=for-the-badge&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com/)
 [![License](https://img.shields.io/badge/License-Proprietary%20(Non--Commercial)-red.svg?style=for-the-badge)](https://github.com/AMINOPY/zxpan/blob/main/LICENSE)
@@ -44,7 +44,7 @@
 
 <div align="center">
 
-[⚡️ ویژگی‌های کلیدی](#️-ویژگی‌ها) • [🚀 راهنمای دیپلوی سریع](#-راهنمای-دیپلوی-سریع) • [🔎 اسکنر آی‌پی تمیز](#-اسکنر-آی‌پی-تمیز) • [🛡️ پروکسی SOCKS5](#️-ساخت-پروکسی-socks5-اختصاصی-zeus-relay) • [❤️ حمایت](#-حمایت-و-دونیت) • [⚖️ لایسنس و کپی‌رایت](#لایسنس--کپی‌رایت) • [Credits](#بخش-اعتبارات)
+[⚡️ ویژگی‌های کلیدی](#️-ویژگی‌ها) • [🚀 راهنمای دیپلوی سریع](#-راهنمای-دیپلوی-سریع) • [🔎 اسکنر آی‌پی تمیز](#-اسکنر-آی‌پی-تمیز) • [🛡️ پروکسی SOCKS5](#️-ساخت-پروکسی-socks5-اختصاصی-zx-panel-relay) • [❤️ حمایت](#-حمایت-و-دونیت) • [⚖️ لایسنس و کپی‌رایت](#لایسنس--کپی‌رایت) • [Credits](#بخش-اعتبارات)
 </div>
 
 
@@ -116,7 +116,7 @@
 <br>
 
 <a href="https://t.me/ZEUS_PANEL_BOT" target="_blank">
-<img src="https://img.shields.io/badge/Zeus_Telegram_Bot-Start_Bot-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="ZX PANEL Telegram Bot" height="40">
+<img src="https://img.shields.io/badge/ZX_PANEL_Telegram_Bot-Start_Bot-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="ZX PANEL Telegram Bot" height="40">
 </a>
 
 </div>
@@ -147,7 +147,7 @@
 برای نصب، به‌روزرسانی یا حذف پروکسی Dante SOCKS5، دستور زیر را با دسترسی root روی سرور لینوکس خود اجرا کنید:
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/AMINOPY/zxpan/main/zeus-relay.sh | sed 's/\r$//')
+bash <(curl -Ls https://raw.githubusercontent.com/AMINOPY/zxpan/main/zx-panel-relay.sh | sed 's/\r$//')
 ```
 
 این اسکریپت دارای منوی تعاملی، پیکربندی خودکار پورت، تولید تصادفی و امن نام کاربری/رمز عبور و پشتیبانی بومی از IPv4/IPv6 است.
@@ -156,14 +156,14 @@ bash <(curl -Ls https://raw.githubusercontent.com/AMINOPY/zxpan/main/zeus-relay.
 
 # 🔎 اسکنر آی‌پی تمیز
 
-پنل زئوس دارای یک اسکنر آی‌پی محلی بسیار بهینه‌شده و چندنخی است. می‌توانید سریع‌ترین و پایدارترین آی‌پی‌های تمیز کلودفلر را مستقیماً از دستگاه خود با روش‌های زیر پیدا کنید:
+پنل ZX PANEL دارای یک اسکنر آی‌پی محلی بسیار بهینه‌شده و چندنخی است. می‌توانید سریع‌ترین و پایدارترین آی‌پی‌های تمیز کلودفلر را مستقیماً از دستگاه خود با روش‌های زیر پیدا کنید:
 
 ### 📱 کاربران موبایل (Pydroid 3 - اندروید)
 1. اپلیکیشن **[Pydroid 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3)** را از فروشگاه گوگل‌پلی نصب کنید.
 2. اپ را باز کنید، از منوی کناری به **Terminal** بروید و دستور زیر را اجرا کنید:
 
 ```bash
-python -c "import urllib.request; req = urllib.request.Request('https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/zeus-scanner.txt', headers={'User-Agent': 'Mozilla/5.0'}); exec(urllib.request.urlopen(req).read().decode('utf-8').split('---PYTH' + 'ON---')[1].split('---POWERSHELL---')[0].strip())"
+python -c "import urllib.request; req = urllib.request.Request('https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/zx-panel-scanner.txt', headers={'User-Agent': 'Mozilla/5.0'}); exec(urllib.request.urlopen(req).read().decode('utf-8').split('---PYTH' + 'ON---')[1].split('---POWERSHELL---')[0].strip())"
 
 ```
 
@@ -174,7 +174,7 @@ python -c "import urllib.request; req = urllib.request.Request('https://raw.gith
 **Command Prompt (CMD)** را در ویندوز باز کنید، دستور زیر را پیست کنید و Enter بزنید. رابط اسکنر پرسرعت به‌طور خودکار کامپایل و راه‌اندازی می‌شود:
 
 ```cmd
-powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13; $wc = New-Object System.Net.WebClient; $wc.Encoding = [System.Text.Encoding]::UTF8; $text = ($wc.DownloadString('https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/zeus-scanner.txt') -split '---POWERSHELL---')[1].Trim(); [IO.File]::WriteAllText('zeus-scanner.ps1', $text, [System.Text.Encoding]::UTF8); .\zeus-scanner.ps1"
+powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13; $wc = New-Object System.Net.WebClient; $wc.Encoding = [System.Text.Encoding]::UTF8; $text = ($wc.DownloadString('https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/zx-panel-scanner.txt') -split '---POWERSHELL---')[1].Trim(); [IO.File]::WriteAllText('zx-panel-scanner.ps1', $text, [System.Text.Encoding]::UTF8); .\zx-panel-scanner.ps1"
 
 ```
 
@@ -193,7 +193,7 @@ powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::Security
 
 ## تاریخچه ستاره‌ها
 
-<a href="https://www.star-history.com/?repos=panel-zeus%2FZ-E-U-S&type=date&legend=bottom-right">
+<a href="https://www.star-history.com/?repos=AMINOPY%2Fzxpan&type=date&legend=bottom-right">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AMINOPY/zxpan&type=date&theme=dark&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AMINOPY/zxpan&type=date&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
@@ -205,7 +205,7 @@ powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::Security
 
 ## <a id="license-copyright"></a>⚖️ لایسنس و کپی‌رایت
 
-**حق چاپ (c) ۲۰۲۶ مشارکت‌کنندگان پنل زئوس. تمامی حقوق محفوظ است.**
+**حق چاپ (c) ۲۰۲۶ مشارکت‌کنندگان پنل ZX PANEL. تمامی حقوق محفوظ است.**
 
 این نرم‌افزار فقط برای **استفاده شخصی و غیرتجاری** ارائه شده است. با دانلود یا استفاده از این نرم‌افزار، با شرایط سخت‌گیرانه زیر موافقت می‌کنید:
 
