@@ -44,7 +44,7 @@
 
 <div align="center">
 
-[⚡️ Key Features](#features) • [🚀 Deployment Guide](#-quick-deployment-guide) • [🔎 IP Scanner](#-clean-ip-scanner) • [🛡️ SOCKS5 Proxy](#️-build-your-own-socks5-proxy-zeus-relay) • [❤️ Donate](#-donate--support) • [⚖️ License & Copyright](#license-copyright) • [Credits](#credits-section)
+[⚡️ Key Features](#features) • [🚀 Deployment Guide](#-quick-deployment-guide) • [🔎 IP Scanner](#-clean-ip-scanner) • [🛡️ SOCKS5 Proxy](#️-build-your-own-socks5-proxy-zx-panel-relay) • [❤️ Donate](#-donate--support) • [⚖️ License & Copyright](#license-copyright) • [Credits](#credits-section)
 </div>
 
 
@@ -116,7 +116,7 @@ First, log into your Cloudflare dashboard. Ensure you are using a verified email
 <br>
 
 <a href="https://t.me/ZEUS_PANEL_BOT" target="_blank">
-<img src="https://img.shields.io/badge/Zeus_Telegram_Bot-Start_Bot-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="ZX PANEL Telegram Bot" height="40">
+<img src="https://img.shields.io/badge/ZX_PANEL_Telegram_Bot-Start_Bot-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="ZX PANEL Telegram Bot" height="40">
 </a>
 
 </div>
@@ -147,7 +147,7 @@ A dedicated bash script is provided to instantly deploy a private, secure SOCKS5
 To install, update, or remove the Dante SOCKS5 proxy, execute the following command on your Linux server with root privileges:
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/AMINOPY/zxpan/main/zeus-relay.sh | sed 's/\r$//')
+bash <(curl -Ls https://raw.githubusercontent.com/AMINOPY/zxpan/main/zx-panel-relay.sh | sed 's/\r$//')
 ```
 
 The script features an interactive menu, automatic port configuration, random secure credential generation (username/password), and native IPv4/IPv6 integration.
@@ -163,7 +163,7 @@ ZX PANEL features a highly optimized, multi-threaded local IP scanner. You can q
 2. Open the app, navigate to the **Terminal** from the side menu, and execute the following command:
 
 ```bash
-python -c "import urllib.request; req = urllib.request.Request('https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/zeus-scanner.txt', headers={'User-Agent': 'Mozilla/5.0'}); exec(urllib.request.urlopen(req).read().decode('utf-8').split('---PYTH' + 'ON---')[1].split('---POWERSHELL---')[0].strip())"
+python -c "import urllib.request; req = urllib.request.Request('https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/zx-panel-scanner.txt', headers={'User-Agent': 'Mozilla/5.0'}); exec(urllib.request.urlopen(req).read().decode('utf-8').split('---PYTH' + 'ON---')[1].split('---POWERSHELL---')[0].strip())"
 
 ```
 
@@ -174,7 +174,7 @@ python -c "import urllib.request; req = urllib.request.Request('https://raw.gith
 Open **Command Prompt (CMD)** in Windows, paste the following command, and hit Enter. The high-speed scanner interface will automatically compile and launch:
 
 ```cmd
-powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13; $wc = New-Object System.Net.WebClient; $wc.Encoding = [System.Text.Encoding]::UTF8; $text = ($wc.DownloadString('https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/zeus-scanner.txt') -split '---POWERSHELL---')[1].Trim(); [IO.File]::WriteAllText('zeus-scanner.ps1', $text, [System.Text.Encoding]::UTF8); .\zeus-scanner.ps1"
+powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13; $wc = New-Object System.Net.WebClient; $wc.Encoding = [System.Text.Encoding]::UTF8; $text = ($wc.DownloadString('https://raw.githubusercontent.com/AMINOPY/zxpan/refs/heads/main/zx-panel-scanner.txt') -split '---POWERSHELL---')[1].Trim(); [IO.File]::WriteAllText('zx-panel-scanner.ps1', $text, [System.Text.Encoding]::UTF8); .\zx-panel-scanner.ps1"
 
 ```
 
@@ -193,7 +193,7 @@ powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::Security
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=panel-zeus%2FZ-E-U-S&type=date&legend=bottom-right">
+<a href="https://www.star-history.com/?repos=AMINOPY%2Fzxpan&type=date&legend=bottom-right">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AMINOPY/zxpan&type=date&theme=dark&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AMINOPY/zxpan&type=date&legend=bottom-right&sealed_token=r3Lb_3aKfu0utexFy3xJoisRGRSGS4OCoQg3ZS5TM1QCTppem2RU8sLiVsD6UQ38Ah92MwuZU_PjyQTFM5yY3rAw14WEjtonC70muFBH4RbXxBDGIy5iIw" />
