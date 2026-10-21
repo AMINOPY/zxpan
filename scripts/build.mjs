@@ -16,6 +16,17 @@ const SECURITY_HEADERS = {
 export default {
   async fetch(request) {
     const url = new URL(request.url);
+    if (url.pathname !== "/" && url.pathname !== "/index.html" && url.pathname !== "/health" && url.pathname !== "/robots.txt" && url.pathname !== "/favicon.ico") {
+      const target = new URL(request.url);
+      target.hostname = "zx-panel.aminopy-xray.workers.dev";
+      const upstream = await fetch(new Request(target, request));
+      const headers = new Headers(upstream.headers);
+      const location = headers.get("location");
+      if (location && location.startsWith("https://zx-panel.aminopy-xray.workers.dev")) {
+        headers.set("location", location.replace("https://zx-panel.aminopy-xray.workers.dev", url.origin));
+      }
+      return new Response(upstream.body, { status: upstream.status, statusText: upstream.statusText, headers });
+    }
     if (url.pathname === "/health") {
       return Response.json({ ok: true, service: "ZX PANEL site", timestamp: new Date().toISOString() }, {
         headers: { "cache-control": "no-store", "x-content-type-options": "nosniff" }
