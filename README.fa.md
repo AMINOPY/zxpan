@@ -12,6 +12,25 @@
 [![Telegram](https://img.shields.io/badge/Community-PANEL__ZEUS-2CA5E0.svg?style=for-the-badge&logo=telegram)](https://t.me/PANEL_ZEUS)
 </div>
 
+
+## 🌐 وب‌سایت اصلی ZX PANEL
+
+- **وب‌سایت:** https://zx-panel-site.aminopy-xray.workers.dev/
+- **بررسی سلامت سرویس:** https://zx-panel-site.aminopy-xray.workers.dev/health
+- **ورود به پنل فعلی:** https://mxz3r0e0u7zs.aminopy-xray.workers.dev/
+- فایل رابط سایت: `public/index.html`
+- کد Worker: `src/index.js` (با اجرای اسکریپت ساخت از روی فایل رابط تولید می‌شود)
+
+### اجرای محلی و انتشار
+
+1. Node.js نصب کن و مخزن را دریافت کن.
+2. دستور `npm install` را اجرا کن.
+3. برای اجرای محلی: `npm run dev`
+4. برای انتشار با Wrangler: `npx wrangler login` و سپس `npm run deploy`
+
+برای انتشار خودکار از GitHub Actions، در تنظیمات مخزن دو Secret با نام‌های `CLOUDFLARE_API_TOKEN` و `CLOUDFLARE_ACCOUNT_ID` تعریف کن. Workflow فقط Worker سایت اصلی با نام `zx-panel-site` را منتشر می‌کند و به Worker پنل فعلی دست نمی‌زند.
+
+
 <table width="100%">
 <tr>
 <td width="50%" valign="middle" align="center">
